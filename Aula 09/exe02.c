@@ -1,3 +1,18 @@
+/*
+Um aplicativo mantém o histórico do consumo semanal de água de uma residência.
+Como o arquivo pode conter registros anteriores, os novos dados devem ser
+acrescentados sem apagar as informações já armazenadas.
+
+2- Desenvolva um algoritmo e um
+programa em C que Leia a
+quantidade de registros que serão
+cadastrados. Para cada registro, leia o
+dia da semana e o consumo de água
+em litros. Acrescente os dados ao
+arquivo consumo.txt, utilizando
+uma linha para cada registro.
+*/
+
 #include<stdio.h>
 #include<locale.h>
 
