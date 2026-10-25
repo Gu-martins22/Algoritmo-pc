@@ -1,3 +1,13 @@
+/*
+Um estudante quer gerar uma tabuada e consultá-la depois, mesmo após encerrar o
+programa.
+
+1- Desenvolva um algoritmo e um programa
+em C que leia um número inteiro e grave
+em um arquivo chamado `tabuada.txt` as
+multiplicações desse número de 0 a 10.
+*/
+
 #include<stdio.h>
 #include<locale.h>
 
@@ -14,7 +24,7 @@ int main ()
         return 1;
     }
 
-    printf("Digite um n�mero inteiro: ");
+    printf("Digite um número inteiro: ");
     scanf("%d", &num);
 
     fprintf(arquivo, "\nTabuada do %d\n", num); // acrescenta um f+arquivo para gravar no arquivo
