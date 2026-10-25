@@ -1,3 +1,17 @@
+/*
+Uma loja registra em `vendas.txt` o código e o valor de cada venda concluída.
+
+5- Desenvolva um algoritmo e um
+programa em C que leia o arquivo e
+exiba a quantidade de vendas, o total
+vendido e o maior valor registrado.
+
+obs: Para este exercício, você poderá criar o
+arquivo de entrada no bloco de notas ou
+criar um programa para armazenar os
+dados.
+*/
+
 #include<stdio.h>
 #include<locale.h>
 
