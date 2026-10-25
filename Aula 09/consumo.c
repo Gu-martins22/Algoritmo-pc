@@ -1,3 +1,5 @@
+// ESTE ARQUIVO FAZ PARTE DO EXERC√çCIO 2
+
 #include<stdio.h>
 #include<locale.h>
 
@@ -22,9 +24,9 @@ int main ()
    }
    media = soma/contador;
 
-    printf("RelatÛrio\n");
+    printf("Relat√≥rio\n");
     printf("Quantidade de registros: %d\n", contador);
-   printf("Consumo mÈdio: %.1f\n", media);
+   printf("Consumo m√©dio: %.1f\n", media);
    printf("Maior consumo: %.1f\n", maior_consumo);
 
     return 0;
