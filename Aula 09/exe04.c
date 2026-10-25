@@ -1,3 +1,17 @@
+/*
+A coordenação do curso de letras recebeu um arquivo com o RGM e a nota final dos
+estudantes.
+
+4- Desenvolva um algoritmo e um
+programa em C que abra o arquivo
+notas.txt e determine:
+- quantidade de estudantes;
+- média da turma;
+- maior nota;
+- quantidade de alunos aprovados
+(nota >= a 6,0).
+*/
+
 #include<stdio.h>
 #include<locale.h>
 
@@ -28,7 +42,7 @@ int main ()
     media= soma/contador;
 
     printf("Estudantes: %d\n", contador);
-    printf("M�dia da turma: %.1f\n", media);
+    printf("Média da turma: %.1f\n", media);
     printf("Maior nota: %.1f\n", maior_nota);
     printf("Alunos aprovados: %d\n", aprovados);
 
