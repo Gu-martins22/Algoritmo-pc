@@ -1,3 +1,18 @@
+/*
+Uma resid√™ncia utiliza deseja manter o hist√≥rico mensal do consumo de energia el√©trica.
+Para tanto, voc√™ deve criar uma aplica√ß√£o que salve em um arquivo (energia.txt), cada
+registro contendo o n√∫mero do m√™s e o consumo correspondente em kWh.
+
+6- Desenvolva um algoritmo e um programa em C que
+apresente o seguinte menu:
+1- Cadastrar consumo
+2- Exibir relat√≥rio
+3- Sair
+
+O programa dever√° repetir o menu at√© que a op√ß√£o 3
+seja escolhida.
+*/
+
 #include<stdio.h>
 #include<locale.h>
 
@@ -9,22 +24,22 @@ int main()
 	float consumo, soma=0, media;
 
     do{
-    printf("\nEscolha uma opÁ„o:\n");
+    printf("\nEscolha uma op√ß√£o:\n");
     printf("1- Cadastrar consumo\n");
-    printf("2- Exibir relatÛrio\n");
+    printf("2- Exibir relat√≥rio\n");
     printf("3- Sair\n");
-    printf("OpÁ„o: ");
+    printf("Op√ß√£o: ");
     scanf("%d", &opcao);
 
     switch (opcao)
     {
         // CADASTRO DO CONSUMO
         case 1:
-        printf("\nDigite o n˙mero do mÍs: ");
+        printf("\nDigite o n√∫mero do m√™s: ");
         scanf("%d", &mes);
 
         if(mes < 1 || mes > 12){
-            printf("MÍs inv·lido!\n");
+            printf("M√™s inv√°lido!\n");
             break;
         }
 
@@ -32,7 +47,7 @@ int main()
         scanf("%f", &consumo);
 
         if(consumo < 0){
-            printf("Consumo inv·lido!\n");
+            printf("Consumo inv√°lido!\n");
             break;
         }
 
@@ -50,7 +65,7 @@ int main()
         printf("Consumo registrado!\n");
         break;
 
-        // RELAT”RIO DO CONSUMO
+        // RELAT√ìRIO DO CONSUMO
         case 2:
         arquivo = fopen("energia.txt", "r");
 
@@ -59,14 +74,14 @@ int main()
         return 1;
         }
 
-        printf("\n----- RELAT”RIO ------\n");
+        printf("\n----- RELAT√ìRIO ------\n");
 
         while(fscanf(arquivo, "%d %f\n", &mes, &consumo)== 2){
-            printf("\nMÍs: %d\n", mes);
+            printf("\nM√™s: %d\n", mes);
             printf("Consumo: %.2f kWh\n", consumo);
 
-            soma += consumo; //
-            cadastros++;
+            soma += consumo; // Soma os consumos registrados
+            cadastros++; // Vai contando os cadastros
         }
 
         fclose(arquivo);
@@ -74,10 +89,10 @@ int main()
         printf("\nTotal do consumo: %.2f kWh\n", soma);
 
         if(cadastros > 0){
-            printf("MÈdia do consumo: %.2f kWh\n", soma/cadastros);
+            printf("M√©dia do consumo: %.2f kWh\n", soma/cadastros);
         }
         else{
-            printf("\nNenhuma mÈdia!\n");
+            printf("\nNenhuma m√©dia!\n");
         }
 
         break;
@@ -87,7 +102,7 @@ int main()
             break;
 
         default:
-            printf("\nOpÁ„o inv·lida\n");
+            printf("\nOp√ß√£o inv√°lida\n");
 
     }
 
