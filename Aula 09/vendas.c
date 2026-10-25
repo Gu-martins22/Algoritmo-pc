@@ -1,3 +1,5 @@
+// ESTE ARQUIVO FAZ PARTE DO EXERCÍCIO 5
+
 #include<stdio.h>
 #include<locale.h>
 
