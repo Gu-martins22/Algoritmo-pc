@@ -1,3 +1,12 @@
+/*
+Em um sistema acadêmico, as notas das avaliações são armazenadas com valores reais,
+permitindo registrar frações de ponto. Para apresentar o desempenho parcial do
+estudante, é necessário calcular a média aritmética das duas avaliações realizadas.
+
+5- Elabore um algoritmo e um programa em linguagem C que leia as duas notas de um aluno e exiba
+sua média aritmética, apresentando o resultado com duas casas decimais.
+*/
+
 #include<stdio.h>
 #include<locale.h>
 
@@ -13,6 +22,6 @@ int main()
 
     media = (nota1+nota2)/2;
 
-    printf("M�dia aritm�tica: %.2f", media);
+    printf("Média aritmética: %.2f", media);
     return 0;
 }
