@@ -13,7 +13,7 @@ Neste repositório irei publicar as atividades que são passadas na aula de Algo
 - Estruturas de decisão: if/else, swith case
 - Condicionais simples, compostas e aninhadas
 
-# Aula 05 - 
+# Aula 05 - Primeiro Projeto:
 
 # Aula 06 - Estruturas de repetição:
 - Laços de repetição: for, while, do-while
