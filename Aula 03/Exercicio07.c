@@ -1,3 +1,13 @@
+/*
+Em um aplicativo educacional, quatro resultados de atividades precisam ser reunidos em
+um único indicador. Para isso, o sistema calcula a média aritmética dos valores
+informados.
+
+7- Desenvolva um programa em C que: (i) leia quatro números reais; (ii) calcule a média aritmética
+utilizando a fórmula: media = (num1 + num2 + num3 + num4)/4; (iii)exiba o resultado com duas
+casas decimais.
+*/
+
 #include<stdio.h>
 #include<locale.h>>
 #include<math.h>
@@ -18,6 +28,6 @@ int main ()
 
     media= (num1+num2+num3+num4)/4;
 
-    printf("A m�dia aritm�tica �: %.2f", media);
+    printf("A média aritmética é: %.2f", media);
     return 0;
 }
