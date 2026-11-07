@@ -4,7 +4,7 @@ razão, a nota final não é calculada por uma média simples, mas por uma médi
 ponderada. A primeira avaliação possui peso 1, a segunda peso 2 e a terceira peso 4.
 
 8- Desenvolva um programa em C que: (i) leia três notas; (ii) calcule a média ponderada,
-considerando os pesos 1, 2 e 4; (iii)exiba o resultado com duas casas decimais. Utilize a fórmula:
+considerando os pesos 1, 2 e 4; (iii)exiba o resultado com duas casas decimais.
 */
 
 #include<stdio.h>
