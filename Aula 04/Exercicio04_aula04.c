@@ -1,3 +1,21 @@
+/*
+O √çndice de Massa Corporal (IMC) √© uma medida calculada a partir do peso e da altura
+de uma pessoa e pode ser utilizada como refer√™ncia para classificar diferentes faixas de
+peso.
+
+4- Desenvolva um programa em C que leia o peso, em quilogramas, e a altura, em metros, de uma
+pessoa. Calcule seu √çndice de Massa Corporal utilizando a f√≥rmula: IMC = peso / altura¬≤. Em
+seguida, determine a categoria correspondente ao IMC calculado, de acordo com a tabela fornecida,
+e exiba uma mensagem no formato: Voc√™ est√° na categoria <categoria>, conforme a tabela:
+
+  Categoria              IMC
+Abaixo do peso --> Abaixo de 20,0
+Peso normal --> Entre 20,0 e 24,9
+Sobrepeso --> Entre 25,0 e 29,9
+Obeso --> Entre 30,0 e 39,9
+Obeso --> m√≥rbido 40,0 e acima
+*/
+
 #include<stdio.h>
 #include<locale.h>
 
@@ -15,15 +33,15 @@ int main()
     imc= peso/(altura*altura);
 
     if(imc < 20) {
-        printf("VocÍ est· Abaixo do peso!\n imc= %.2f", imc);
+        printf("Voc√™ est√° Abaixo do peso!\n imc= %.2f", imc);
     } else if (imc < 25){
-        printf("VocÍ est· com Peso normal!\n imc= %.2f", imc);
+        printf("Voc√™ est√° com Peso normal!\n imc= %.2f", imc);
     } else if (imc < 30){
-        printf("VocÍ est· com Sobrepeso!\n imc= %.2f", imc);
+        printf("Voc√™ est√° com Sobrepeso!\n imc= %.2f", imc);
     } else if (imc < 40){
-        printf("VocÍ est· Obeso!\n imc= %.2f", imc);
+        printf("Voc√™ est√° Obeso!\n imc= %.2f", imc);
     } else {
-        printf("VocÍ est· Obeso MÛrbido!\n imc= %.2f", imc);
+        printf("Voc√™ est√° Obeso M√≥rbido!\n imc= %.2f", imc);
     }
 
 return 0;
