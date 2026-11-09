@@ -1,4 +1,5 @@
-# Algoritmo-pc
+# Algoritmo-pc - 1° Semestre
+--Aluno: Gustavo Martins de Sousa--
 --Aulas feitas pelo Prof° Marco Antonio--
 
 Neste repositório irei publicar as atividades que são passadas na aula de Algorítmos e Pensamento Computacional. Atualmente estamos praticando programação com linguagem C.
