@@ -26,6 +26,7 @@ Neste repositório irei publicar as atividades que são passadas na aula de Algo
 ## [Aula 08](./Aula%2008) - Estruturas de Dados Básicas (homogêneas): 
 - Introdução a estrutura de dados
 - Arrays unidimensionais e multidimensionais
+- Projeto 3 - Desafio de operadoras de celular
 
 ## [Aula 09](./Aula%2009) - Manipulação de Arquivos: 
 - Leitura e escrita em arquivos texto
@@ -37,3 +38,4 @@ Neste repositório irei publicar as atividades que são passadas na aula de Algo
 - Parâmetros: passagem por valor e passagem por referência
 - Retorno de valores
 - Estruturas de dados heterogêneas (structs)
+- Projeto 4 - Desafio de consumo de energia
