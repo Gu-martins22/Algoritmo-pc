@@ -33,7 +33,7 @@ Neste repositório irei publicar as atividades que são passadas na aula de Algo
 - Abertura, fechamento e modos de acesso
 - Processamento de dados armazenados
 
-## Aula 10 - Funções e Modularização:
+## [Aula 10](./Aula%2010) - Funções e Modularização:
 - Definição e chamada de funções
 - Parâmetros: passagem por valor e passagem por referência
 - Retorno de valores
